@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8 />
+    <title>JS Bin</title>
+</head>
+
+<body>
+<script>
+    let a = [
+        [1, 2, 1, 24],
+        [8, 11, 9, 4],
+        [7, 0, 7, 27],
+        [7, 4, 28, 14],
+        [3, 10, 26, 7]
+    ];
+    let hienthi=""
+    for (let i=0;i<a.length;i++){
+        hienthi+="row "+i+": "
+        for (let j=0;j<a[i].length;j++){
+            hienthi+=a[i][j]+" "
+        }
+        hienthi+="<br>"
+    }
+    document.write(hienthi)
+
+</script>
+</body>
+</html>

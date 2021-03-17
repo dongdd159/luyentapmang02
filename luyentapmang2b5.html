@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8 />
+    <title>JS Bin</title>
+</head>
+
+<body>
+<script>
+    let a=new Array(5)
+    let b=new Array(5)
+    let count=0
+    for (let i=0;i<a.length;i++){
+        a[i]=prompt("nhậpa["+i+"]")
+    }
+    for ( i=0;i<b.length;i++){
+        b[i]=prompt("nhậpb["+i+"]")
+    }
+    for ( i=0;i<a.length;i++){
+        if (a[i]==b[i]){
+            count++
+        }
+    }
+    if(count==a.length){
+        alert("2 mảng giống nhau")
+    }else {
+        alert("2 mảng ko giống nhau")
+    }
+</script>
+</body>
+</html>

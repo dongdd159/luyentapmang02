@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8 />
+    <title>JS Bin</title>
+</head>
+
+<body>
+<script>
+    let a = [ 'c', 's', '5', '2', '6', '1' ]
+    let dem=0
+    let change
+    let check =new Array(6)
+    for (let i=0;i<a.length;i++) {
+        change = parseInt(a[i])
+        if (isNaN(a[i])==false){
+            dem++
+        }
+    }
+    alert(dem)
+</script>
+</body>
+</html>
